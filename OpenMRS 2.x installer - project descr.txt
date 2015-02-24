@@ -2,8 +2,13 @@ Wiki: OpenMRS 2.x Installer module
 
 Abstract:
 The purpose of this project is to simplify upgrading version of OpenMRS 2.x.
-This module will simplify this process by installing modules included in  selected OpenMRS 2.x version. List of modules can be found in the main pom.xml file of the Reference Application Distribution Package. 
-	The module will provide page for select version of OpenMRS and trigger upgrade process.
+This module will simplify this process by installing modules included in the selected OpenMRS 2.x version.
+List of modules can be found in the main pom.xml file of the Reference Application Distribution Package. 
+The module will provide page for selecting version of OpenMRS and triggering upgrade process.
+
 	Upgrade use cases:
-	1. current and destination version of OpenMRS require the same version of openmrs-core
-	2. - destination version of OpenMRS requires newer version of openmrs-core => manual upgrade of openmrs-core is needed
+		1. current and destination version of OpenMRS require the same version of openmrs-core
+			+ TODO
+		2. destination version of OpenMRS requires newer version of openmrs-core
+			+ manual upgrade of openmrs-core is needed
+			+ TODO
